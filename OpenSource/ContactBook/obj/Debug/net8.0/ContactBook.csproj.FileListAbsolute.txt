@@ -1,0 +1,5 @@
+C:\Users\CALEB ASSAN\Documents\consoleApp\OpenSource\ContactBook\obj\Debug\net8.0\ContactBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CALEB ASSAN\Documents\consoleApp\OpenSource\ContactBook\obj\Debug\net8.0\ContactBook.AssemblyInfoInputs.cache
+C:\Users\CALEB ASSAN\Documents\consoleApp\OpenSource\ContactBook\obj\Debug\net8.0\ContactBook.AssemblyInfo.cs
+C:\Users\CALEB ASSAN\Documents\consoleApp\OpenSource\ContactBook\obj\Debug\net8.0\ContactBook.csproj.CoreCompileInputs.cache
+C:\Users\CALEB ASSAN\Documents\consoleApp\OpenSource\ContactBook\obj\Debug\net8.0\ContactBook.sourcelink.json

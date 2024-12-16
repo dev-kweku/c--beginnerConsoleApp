@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Contact{
     public string Name {get;set;}
@@ -12,15 +13,15 @@ class Contact{
     }
 
 }
-public ContactBook{
+class ContactBook{
     private List<Contact> contacts;
     public ContactBook(){
-        contacts=new List<Contact>
+        contacts=new List<Contact>();
     }
 
     public void AddContact(Contact contact){
         contacts.Add(contact);
-        Console.WriteLine("Contact added successfully")
+        Console.WriteLine("Contact added successfully");
     }
 
     public void SearchContact(string name){
@@ -46,12 +47,12 @@ public ContactBook{
             if(contact.Name.Equals(name,StringComparison.OrdinalIgnoreCase)){
                 Console.WriteLine("Enter new email (leave blank to keep existing ): ");
                 string newEmail=Console.ReadLine();
-                if(!string.IsNullWhiteSpace(newEmail)){
+                if(!string.IsNullOrWhiteSpace(newEmail)){
                     contact.Email=newEmail;
                 }
                 Console.WriteLine("Enter new phone number (leave blank to keep existing ):");
                 string newPhone=Console.ReadLine();
-                if(!string.IsNullWhiteSpace(newPhone)){
+                if(!string.IsNullOrWhiteSpace(newPhone)){
                     contact.Phone=newPhone;
                 }
 
@@ -81,7 +82,7 @@ class Program{
             Console.WriteLine("4. Exit from contact book");
 
             Console.Write("Enter your option: ");
-            int option=int.Parse(Console.ReadLine())
+            int option=int.Parse(Console.ReadLine());
 
             // switch implementation
             switch(option){
